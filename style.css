@@ -1,0 +1,127 @@
+*,body{margin:0;}
+.flex{display:flex;}
+.p1{padding:10px}
+.p2{padding:20px}
+.p3{padding:30px}
+.m1{margin:10px}
+.m2{margin:20px}
+ul{list-style: none}
+.w-100{width:100%}
+.primary {
+  background:#0066ff;
+}
+a{
+  text-decoration:none;
+  color:black;
+}
+.sec:hover{
+  background:transparent;
+   border:2px solid #33cc33;
+  color:black;
+}
+.sec{
+  background:#47d147;
+}
+.primary:hover {
+  background:transparent;
+  border:2px solid #0066ff;
+  color:black;
+}
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    text-decoration: none;
+    color: initial;
+}
+
+button{
+  color:white;
+  margin:20px;
+  padding:15px 20px 15px 20px;
+  border-radius:10%;
+  transition: 0.3s;
+  border: none;
+}
+
+nav{
+  display:flex;
+  align-items: center;
+  height:30px;
+  background:#B1E1FF;
+  justify-content: space-around;
+  padding:30px 40px 30px 40px;
+}
+nav img{height:4rem; width:4rem;}
+#cover{
+  height:86vh;
+  display:flex;
+  background: black;
+  overflow: hidden;
+}
+#cover img {
+  object-fit: cover;
+  height:100%;
+  width:100%;
+  opacity: 0.4;
+}
+#cover section{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 50px;
+  color: white;
+  transform: translate(-50%, -50%);
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+#doctors,#booked-list{
+  padding:20px;
+}
+ h2{
+  align-text:center;
+  margin:30px;
+}
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+#appointment{
+  display:flex;
+  margin:15px;
+  justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+#appointment form{
+  display:flex;
+      flex-direction: column;
+}
+.formgrp{
+  margin:8px;
+}
+.error{
+  padding:12px 20px 12px 20px;
+  border:2px solid red;
+  margin:10px 0 10px 0;
+}
+.success{
+  padding:12px 20px 12px 20px;
+  border:2px solid green;
+  margin:10px 0 10px 0;
+}
+
+input,select {
+  width: 40vw;
+  padding:10px;
+}
